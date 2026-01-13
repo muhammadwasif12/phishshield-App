@@ -38,16 +38,16 @@ We utilize a **Hybrid-Intelligence Architecture** combining local processing, cl
 
 ```mermaid
 graph TD
-    A[User App (Flutter)] -->|1. Paste URL/Scan QR| B(Core Logic)
-    B -->|2. Feature Extraction| C{AI Engine (Flask)}
-    C -->|3. Random Forest Analysis| D[Prediction Score]
+    A["User App (Flutter)"] -->|"1. Paste URL / Scan QR"| B("Core Logic")
+    B -->|"2. Feature Extraction"| C{"AI Engine (Flask)"}
+    C -->|"3. Random Forest Analysis"| D["Prediction Score"]
     
-    D -->|Safe?| E[UI Success Animation]
-    D -->|Phishing? | F[UI Warning Alert]
+    D -->|"Safe?"| E["UI Success Animation"]
+    D -->|"Phishing?"| F["UI Warning Alert"]
     
-    F -->|User Confirmation| G[Blockchain Service]
-    G -->|Sign Transaction| H[Ethereum Network]
-    H -->|Store Report| I((Immutable Ledger))
+    F -->|"User Confirmation"| G["Blockchain Service"]
+    G -->|"Sign Transaction"| H["Ethereum Network"]
+    H -->|"Store Report"| I(("Immutable Ledger"))
     
     subgraph "Mobile Client"
     A
