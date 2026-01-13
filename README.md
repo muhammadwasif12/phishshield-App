@@ -27,7 +27,6 @@ Experience the fluid animations and real-time detection in action.
 <div align="center">
   <video src="assets/demo/app_flow.mp4" width="100%" controls autoplay loop muted></video>
   
-  *> **Note:** If the video above does not play, please check the `assets/demo/` folder or [download it here](assets/demo/app_flow.mp4).*
 </div>
 
 ---
